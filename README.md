@@ -18,6 +18,8 @@ The original set up of this web application uses HTTP protocol to transmit data 
 ## Post-Encryption
 In order to put a level of security on our web application. We will be applying HTTPS. 
 
+![Key Generation RSA](generatingKey.png "Generating Key")
+
 
 ```openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365```
 
