@@ -10,4 +10,5 @@ The original set up of this web application uses HTTP protocol to transmit data 
 
 
 # As you can see, the data transmitted is NOT encrypted.
+**Look towards the bottom of this screen shot to see the data**
 ![Wireshark Capture](wiresharkPlaintext.png "WireShark Capture")
